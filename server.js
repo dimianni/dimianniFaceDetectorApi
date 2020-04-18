@@ -26,7 +26,7 @@ const app = express();
 app.use(bodyParser.json())
 app.use(cors())
 
-// First Parameter shoul always be request
+// First Parameter should always be request
 app.get('/', (req, res) => {
     res.send('This is working')
 })
