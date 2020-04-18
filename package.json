@@ -4,7 +4,7 @@
   "description": "Backend for Brain project",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon server.js"
+    "start": "node server.js"
   },
   "author": "Dmytro Anikin",
   "license": "ISC",
